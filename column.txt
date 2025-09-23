@@ -1,0 +1,60 @@
+transaction_id
+transaction_event_code
+transaction_initiation_date
+transaction_updated_date
+
+transaction_amount
+    currency_code
+    value
+
+transaction_status
+transaction_subject
+
+ending_balance
+    currency_code
+    value
+
+available_balance
+    currency_code
+    value
+
+protection_eligibility
+
+payer_info
+    account_id
+    email_address
+    address_status
+    payer_status
+    payer_name
+        given_name
+        surname
+        alternate_full_name
+    address
+        line1
+        city
+        state
+        country_code
+        postal_code
+    country_code
+
+shipping_info
+    name
+    address
+        line1
+        city
+        country_code
+        postal_code
+
+cart_info
+    item_details
+        item_name
+        item_quantity
+        item_unit_price
+            currency_code
+            value
+        item_amount
+            currency_code
+            value
+        total_item_amount
+            currency_code
+            value   
